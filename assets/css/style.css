@@ -1,0 +1,71 @@
+body {
+    background: url("../images/locomotive.jpg") no-repeat center center fixed;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover 100% 100%;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+}
+
+#intro-container {
+	background-color: white;
+	border: 25px solid black;
+	margin: 20px;
+}
+
+#schedule {
+	background-color: blue;
+	color: black;
+	border: 25px solid black;
+	margin: 20px;
+	display: block;
+}
+
+#input {
+	background-color: blue;
+	color: black;
+	border: 25px solid black;
+	margin: 20px;
+	display: block;
+}
+
+#start {
+	margin: 20px;
+}
+
+#time {
+	display: block;
+}
+
+.current-time {
+  color: black;
+  background-color: white;
+  font-size: 50px;
+}
+
+.help-block {
+  color: purple;}
+
+h1 {
+	color: white;
+	background-color: black;
+	font-size:  100px;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	background-color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+#footerA {
+	background-color: black;
+	color: gold;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+}

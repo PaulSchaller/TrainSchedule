@@ -10,13 +10,9 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<!--Added Moment.js -->
-	<script src=https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js></script>
-
-	 <script src="https://apis.google.com/js/platform.js" async defer></script>
-
+	
 </head>
 
 <body>
@@ -60,20 +56,32 @@
                         </div>
                         
                         <div class="panel-body">
-                             <!-- headings of table -->
-                        <table class="train-schedule">
+                        <table class="train-schedule" style="width: 100%">
+                          <thead>
                              <tr>
-                                  <th class="col-sm-3">Train Name
+                                  <th><u>Train Name</u>
                                   </th>
-                                  <th class="col-sm-2">Destination
+                                  <th><u>Destination</u>
                                   </th>
-                                  <th class="col-sm-2">Frequency (min)
+                                  <th><u>Frequency (min)</u>
                                   </th>
-                                  <th class="col-sm-2">Next Arrival
+                                  <th><u>Next Arrival</u>
                                   </th>
-                                  <th class="col-sm-2">Minutes Away
+                                  <th><u>Minutes Away</u>
+                                  </th>
+                                  <th><u>Remove A Train</u>
                                   </th>
                              </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                  <th></th>
+                                  <th></th>
+                                  <th></th>
+                                  <th></th>
+                                  <th></th>
+                                  <th></th>
+                                </tr>
                         </table>
 
                         </div>  <!-- closes panel-body -->
@@ -107,7 +115,7 @@
                                </div>
                                <div class="form-group">
                                  <label for="text">First Train Time (HH:mm - military time)</label>
-                                 <input type="text" class="form-control" id="firstTrainTimeinput">
+                                 <input type="text" class="form-control" id="firstTrainTimeInput">
                                </div>
                                <div class="form-group">
                                  <label for="comment">Frequency (min)</label>
@@ -151,14 +159,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<!--Firebase Reference -->
-	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script> 
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 
-	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
- 	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
-
+	
 </body>
 </html>

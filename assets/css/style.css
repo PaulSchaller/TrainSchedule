@@ -19,7 +19,7 @@ body {
 	color: black;
 	border: 25px solid black;
 	margin: 20px;
-	display: block;
+	display: none;
 }
 
 #input {
@@ -27,7 +27,7 @@ body {
 	color: black;
 	border: 25px solid black;
 	margin: 20px;
-	display: block;
+	display: none;
 }
 
 #start {
@@ -35,7 +35,7 @@ body {
 }
 
 #time {
-	display: block;
+	display: none;
 }
 
 .current-time {

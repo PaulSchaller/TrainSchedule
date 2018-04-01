@@ -40,7 +40,7 @@ Once the user submits the form, the train will appear on the train schedule.
 
 
 
-This shows the updated arrival times of the trains from the previous screenshots as time passes.
+This shows the updated arrival times of the trains from the previous screenshot as time passes.
 ![2018-04-01 46](https://user-images.githubusercontent.com/30198872/38175304-755414a0-35a8-11e8-8a38-5152be6373e1.png)
 
 
